@@ -1,40 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Kanishka Bhardwaj | Portfolio</title>
-  <link rel="stylesheet" href="portfolio.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanishka Bhardwaj | Portfolio</title>
+    <link rel="stylesheet" href="portfolio.css">
 </head>
 <body>
-  <header>
-    <img src="imageforgssoc.jpg" alt="Kanishka Bhardwaj">
-    <h1>Kanishka Bhardwaj</h1>
-    <p>Aspiring Developer | Open Source Enthusiast</p>
-  </header>
 
-  <section>
-    <h2>About Me</h2>
-    <p>Hello! I'm Kanishka, a passionate and curious tech enthusiast currently exploring the world of web development and programming. I enjoy building fun and useful projects while constantly learning new things. I'm especially excited about contributing to open source and being part of a supportive tech community like GSSoC.</p>
-  </section>
+    <!-- ===== Header ===== -->
+    <header>
+        <h1 id="typingName" class="typing-cursor"></h1>
+        <nav>
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <!-- Dark Mode Toggle Button -->
+        <button id="darkModeToggle">🌙 Dark Mode</button>
+    </header>
 
-  <section>
-    <h2>Projects</h2>
-    <ul>
-      <li><strong>Faulty Calculator</strong> – A calculator that gives the wrong result 10% of the time, just for fun and practice!</li>
-      <li><strong>Portfolio Website</strong> – This personal portfolio to showcase my skills and projects.</li>
-      <li><strong>To-Do List App</strong> – A simple app to manage daily tasks using JavaScript and DOM manipulation.</li>
-    </ul>
-  </section>
+    <!-- ===== About Me ===== -->
+    <section id="about" class="about fade-in">
+        <img src="imageforgssoc.jpg" alt="Kanishka Bhardwaj">
+        <p>
+            I'm a second-year B.Tech student specializing in Computer Science and Engineering with a focus on Artificial Intelligence and Machine Learning (CSE–AIML). Passionate about technology, problem-solving, and emerging AI applications, I'm actively building skills in programming, algorithms, and data-driven solutions while exploring projects and opportunities to grow in the tech field.
+        </p>
+    </section>
 
-  <section>
-    <h2>Connect with Me</h2>
-    <p><a href="https://github.com/Kaniisshka" target="_blank">GitHub</a></p>
-    <p><a href="https://www.linkedin.com/in/kanishka-bhardwaj-014310329/" target="_blank">LinkedIn</a></p>
-  </section>
+    <!-- ===== Projects ===== -->
+    <section id="projects" class="fade-in">
+        <h2>Projects</h2>
+        <div class="projects">
+            <div class="project-card slide-up">
+                <h3>Faulty Calculator</h3>
+                <p>Calculator that gives wrong answers 10% of the time.</p>
+            </div>
+            <div class="project-card slide-up">
+                <h3>Portfolio Website</h3>
+                <p>My personal website showcasing my skills, projects, and achievements.</p>
+            </div>
+            <div class="project-card slide-up">
+                <h3>Weather Application</h3>
+                <p>Displays weather data for any city in real-time.</p>
+            </div>
+        </div>
+    </section>
 
-  <footer>
-    <p>&copy; 2025 Kanishka Bhardwaj</p>
-  </footer>
+    <!-- ===== Contact ===== -->
+    <section id="contact" class="contact fade-in">
+        <h2>Get in Touch</h2>
+        <a href="https://github.com/Kaniisshka" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/kanishka-bhardwaj-014310329/" target="_blank">LinkedIn</a>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer>
+        &copy; 2025 Kanishka Bhardwaj | All Rights Reserved
+    </footer>
+
+    <script src="portfolio.js"></script>
 </body>
 </html>
+
+
